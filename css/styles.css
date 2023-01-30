@@ -1,0 +1,260 @@
+:root {
+  --main-title-color: #ffffff;
+  --second-title-color: #303030;
+  --second-btn-color: #ffffff;
+  --second-btn-color: #303030;
+  --tipical-ln: 1.36;
+  --accent-color: #ff6c00;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.title {
+  font-family: "Raleway", sans-serif;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+}
+
+.btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.pre-title {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: var(--tipical-ln);
+  text-transform: uppercase;
+}
+
+/*-----------------HEADER-------------*/
+
+.header {
+  background-color: gray;
+}
+.header-navigation {
+}
+.header-logo {
+}
+.header-list {
+}
+.header-item {
+}
+.header-link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: #ff6c00;
+}
+
+.header-tel {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.header-btn {
+  color: #ffffff;
+}
+
+/*-----------------HERO-SECTION-------------*/
+
+.hero {
+}
+.hero-list {
+}
+.list {
+}
+.hero-item {
+}
+.hero-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: var(--tipical-ln);
+  letter-spacing: 0.2em;
+  color: var(--second-title-color);
+}
+
+.hero-link:hover,
+.hero-link:focus {
+  color: #ff6c00;
+}
+
+.hero-pre-title {
+  color: rgba(157, 164, 189, 0.6);
+}
+.hero-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+  color: var(--main-title-color);
+}
+.hero-after-title {
+  font-size: 18px;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+
+/*-----------------ABOUT-SECTION-------------*/
+
+.about {
+}
+.about-list {
+}
+
+.about-item {
+}
+.about-pic {
+}
+.about-pre-title {
+  color: var(--second-title-color);
+}
+.about-title {
+  color: #303030;
+}
+.about-after-title {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+.about-text {
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+.about-btn {
+  color: #303030;
+}
+
+/*-----------------PRICES-SECTION-------------*/
+
+.prices {
+}
+.prices-pre-title {
+  color: rgba(157, 164, 189, 0.6);
+}
+.prices-title {
+  color: var(--main-title-color);
+}
+.prices-list {
+}
+.prices-item {
+}
+.prices-item-text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+.prices-btn {
+  color: #ffffff;
+}
+
+/*-----------------BENEFITS-SECTION-------------*/
+
+.benefits {
+}
+.benefits-list {
+}
+.benefits-item > span {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: calc(57 / 42);
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #303030;
+}
+.benefits-item-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: var(--tipical-ln);
+  text-align: center;
+  color: #303030;
+}
+.benefits-pre-title {
+  color: #303030;
+}
+.benefits-title {
+  color: var(--second-title-color);
+}
+.benefits-after-title {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+
+/*-----------------BARBERS-SECTION-------------*/
+
+.barbers {
+}
+.barbers-pre-title {
+  color: #303030;
+}
+
+.barbers-title {
+  colot: var(--second-title-color);
+}
+
+.barbers-list {
+}
+
+.barbers-item {
+}
+.barbers-item-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: calc(25 / 18);
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #303030;
+}
+.barbers-item-text {
+  font-size: 14px;
+  line-height: calc(19 / 14);
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
