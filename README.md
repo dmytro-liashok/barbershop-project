@@ -1,1 +1,1 @@
-# random_project
+# barbershop_project
